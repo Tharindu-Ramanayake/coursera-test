@@ -75,12 +75,12 @@ body{
 
 /*Home Page*/
 h3{
-	text-align: center;
-	color: #f6b319;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-top: 40px;
-	margin-bottom: 60px;
+  text-align: center;
+  color: #f6b319;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 
@@ -92,18 +92,23 @@ h3{
   border: 2px solid crimson;
 }
 
+#chicken div, #beef div, #sushi div{
+  text-align: center;
+  width: 100%
+}
+
 #chicken:hover, #beef:hover, #sushi:hover{
-	box-shadow: 0 1px 2px 1px #cccccc;
+  box-shadow: 0 1px 2px 1px #cccccc;
 }
 
 #chicken span, #beef span, #sushi span{
-	width: 100%;
-	position:relative;
-	right: 0px;
+  width: 100%;
+  position:relative;
+  right: 0px;
 }
 
 #chicken>p, #beef>p, #sushi>p{
-	background-color: #333;
+  background-color: #333;
 }
 /*End of Home-page*/
 
@@ -149,7 +154,7 @@ h3{
 @media (max-width: 767px) {
     /* Header */
   h3{
-  	font-weight: normal;
+    font-weight: normal;
   }
   .navbar-brand {
     padding-top: 10px;
@@ -184,7 +189,7 @@ h3{
     color: crimson;
   }
   #call-btn>a:hover{
-  	background-color:#f6b319; 
+    background-color:#f6b319; 
   }
   #xs-deliver {
     margin-top: 5px;
@@ -194,7 +199,7 @@ h3{
 }
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-	.navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
     font-size: 6vw;
   }
